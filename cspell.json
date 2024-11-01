@@ -3,6 +3,7 @@
     "**/*.*"
   ],
   "ignorePaths": [
+    "**/*.code-workspace",
     "**/*.tscn",
     "**/*.import",
     "**/badges/**/*.*",
