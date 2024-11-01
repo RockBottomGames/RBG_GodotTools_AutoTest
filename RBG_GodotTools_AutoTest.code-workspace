@@ -135,6 +135,15 @@
 				"icon": "terminal-powershell",
 				"source": "PowerShell"
 			}
-		}
+		},
+		"cSpell.ignorePaths": [
+			"package-lock.json",
+			"node_modules",
+			"vscode-extension",
+			".git/objects",
+			".vscode",
+			".vscode-insiders",
+			"RBG_GodotTools_AutoTest.code-workspace"
+		]
 	}
 }
