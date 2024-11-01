@@ -74,8 +74,7 @@ jobs:
           include: RBG_GodotTools_AutoTest/RBG_GodotTools_AutoTest.csproj
 
       - name: 📦 Build
-        run: dotnet build \
-          /home/runner/work/RBG_GodotTools_AutoTest/RBG_GodotTools_AutoTest.csproj -c Release
+        run: dotnet build RBG_GodotTools_AutoTest/RBG_GodotTools_AutoTest.csproj -c Release
 
       - name: 🔎 Get Package Path
         id: package-path
